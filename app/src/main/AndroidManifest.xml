@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.renukamatkar.pinterest" >
-//
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/pic_pinterest"
@@ -43,6 +49,34 @@
         <activity
             android:name=".FF"
             android:label="@string/title_activity_ff" >
+        </activity>
+        <activity
+            android:name=".User_Details"
+            android:label="@string/title_activity_user__details" >
+        </activity>
+        <activity
+            android:name=".MainHomePage"
+            android:label="@string/title_activity_main_home_page" >
+        </activity>
+        <activity
+            android:name=".Pin"
+            android:label="@string/title_activity_pin" >
+        </activity>
+        <activity
+            android:name=".ClickedUserDetails"
+            android:label="@string/title_activity_clicked_user_details" >
+        </activity>
+        <activity
+            android:name=".Search"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name=".SearchUser"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name=".DisplayBoardPins"
+            android:label="@string/title_activity_search" >
         </activity>
     </application>
 
